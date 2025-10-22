@@ -7,7 +7,7 @@ return {
       local lint = require 'lint'
       lint.linters_by_ft = {
         markdown = { 'markdownlint' },
-        php = { 'phpcs', 'phpmd', 'phpstan' },
+        php = { 'phpcs', 'phpstan' },
         go = { 'golangci-lint' },
         yaml = { 'yamllint' },
         json = { 'jsonlint' },

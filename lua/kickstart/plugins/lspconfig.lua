@@ -266,7 +266,6 @@ return {
         -- PHP
         --    Lint
         'phpcs',
-        'phpmd',
         'phpstan',
         --    Formatter
         'php-cs-fixer',
