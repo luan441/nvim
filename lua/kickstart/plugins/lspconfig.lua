@@ -236,6 +236,7 @@ return {
           },
         },
         vtsls = {},
+        eslint = {},
         intelephense = {},
         laravel_ls = {},
         gopls = {},
