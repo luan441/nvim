@@ -237,6 +237,7 @@ return {
         },
         vtsls = {},
         eslint = {},
+        biome = {},
         intelephense = {},
         laravel_ls = {},
         gopls = {},

@@ -19,6 +19,7 @@ return {
         -- Disable "format_on_save lsp_fallback" for languages that don't
         -- have a well standardized coding style. You can add additional
         -- languages here or re-enable it for the disabled ones.
+
         return nil
         -- local disable_filetypes = { c = true, cpp = true, php = true, js = true }
         -- if disable_filetypes[vim.bo[bufnr].filetype] then
@@ -36,8 +37,8 @@ return {
         -- python = { "isort", "black" },
         --
         -- You can use 'stop_after_first' to run the first available formatter from the list
-        javascript = { 'prettierd', 'prettier', stop_after_first = true },
-        typescript = { 'prettierd', 'prettier', stop_after_first = true },
+        javascript = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
+        typescript = { 'biome', 'prettierd', 'prettier', stop_after_first = true },
         php = { 'php-cs-fixer' },
         -- php = {'pint'} -- Laravel
         go = { 'gofumpt', 'goimports', 'gomodifytags' },

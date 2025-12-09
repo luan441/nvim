@@ -76,5 +76,6 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
+vim.opt.wrap = false
 
 -- vim: ts=2 sts=2 sw=2 et
