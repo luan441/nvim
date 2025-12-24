@@ -270,6 +270,7 @@ return {
         qmlls = {
           cmd = { 'qmlls', '-E' },
         },
+        hyprls = {},
       }
 
       -- Ensure the servers and tools above are
