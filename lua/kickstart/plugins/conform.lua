@@ -42,6 +42,7 @@ return {
         php = { 'php-cs-fixer' },
         -- php = {'pint'} -- Laravel
         go = { 'gofumpt', 'goimports', 'gomodifytags' },
+        python = { 'ruff' },
       },
     },
   },
