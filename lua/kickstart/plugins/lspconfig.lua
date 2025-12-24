@@ -250,8 +250,8 @@ return {
           init_options = {
             settings = {
               logLevel = 'debug',
-            }
-          }
+            },
+          },
         },
         pyright = {
           settings = {
@@ -266,6 +266,9 @@ return {
               },
             },
           },
+        },
+        qmlls = {
+          cmd = { 'qmlls', '-E' },
         },
       }
 

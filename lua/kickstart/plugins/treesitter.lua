@@ -24,7 +24,8 @@ return {
         'go',
         'gomod',
         'gosum',
-        'python'
+        'python',
+        'qmljs',
       },
       -- Autoinstall languages that are not installed
       auto_install = true,
